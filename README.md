@@ -250,7 +250,7 @@ APACHE
 MySQL
 
 
-## Apêndice
+## Material de apoio
 
 Links úteis
  
