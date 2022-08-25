@@ -242,7 +242,8 @@ Após isso precisamos reiniciar o SAMBA para funcionarem as alterações:
   systemctl enable smbd (para quando reiniciar o serviço já estar rodando)
 ```
   PS=daemon são os serviços de segundo plano, assim como o samba, por isso o smb tem um D no final.
-  Agora só criar um caminho de rede ou acessar no windows o ip do host + o nome da pasta para testar o caminho (\\10.0.0.19\publica (esse é um IP e pode mudar ou ser diferente do seu)) e se pedir credencial é só usar um user criado no linux.
+  Agora só criar um caminho de rede ou acessar no windows o ip do host + o nome da pasta para testar o caminho
+  (\\10.0.0.19\publica <-- esse é um IP e pode mudar ou ser diferente do seu) e se pedir credencial é só usar um user criado no linux.
   
 #### Web
 APACHE
