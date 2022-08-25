@@ -53,7 +53,7 @@ Devem ser conhecidos:
 ## Arquivos e Pastas
 #### Executar arquivos
 ```bash
-  ./executavel.sh (./ faz a mágica, lembre que o arquivo precisa ter permissão de execução para você, se n tiver, só usar o chmod +x executavel.sh)
+  ./executavel.sh (./ lembre que o arquivo precisa ter permissão de execução para você, se n tiver, só usar o chmod +x executavel.sh)
 ```
 #### Dono dos arquivos ou pastas
 ```bash
@@ -242,7 +242,7 @@ Após isso precisamos reiniciar o SAMBA para funcionarem as alterações:
   systemctl enable smbd (para quando reiniciar o serviço já estar rodando)
 ```
   PS=daemon são os serviços de segundo plano, assim como o samba, por isso o smb tem um D no final.
-  Agora só criar um caminho de rede ou acessar no windows o ip do host + o nome da pasta para testar o caminho (\\10.0.0.19\publica) e se pedir credencial é só usar um user criado no linux.
+  Agora só criar um caminho de rede ou acessar no windows o ip do host + o nome da pasta para testar o caminho (\\10.0.0.19\publica (esse é um IP e pode mudar ou ser diferente do seu)) e se pedir credencial é só usar um user criado no linux.
   
 #### Web
 APACHE
